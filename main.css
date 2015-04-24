@@ -1,0 +1,78 @@
+body {
+    background-image: url("./Images/dark_geometric.png");
+    background-repeat: repeat;    
+    font-family: 'Ariel', sans-serif;
+    background-color: #f3f3f3'
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: clear;
+    padding: px;
+}
+
+header {
+    background-color: dimgray;
+    height: 100px;
+    padding: 4px;
+    
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+header {
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+    
+}
+
+.main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: dimgray;
+    
+}
+
+ul.main_menu {
+    margin-top: 15px;
+}
+
+.main_menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-variant: small-caps;
+    
+}
+
+.main_menu a:hover {
+    color: slategray
+}
+
+.pdfviewer {
+    position: relative;
+}
+
+object.pdf {
+    width:960px;
+    height:79%;
+}
+
+.pdftext {
+    color:white;
+}
